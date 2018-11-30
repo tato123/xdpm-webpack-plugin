@@ -1,7 +1,8 @@
-language: node_js
-node_js:
-  - "0.10"
-  - "0.12"
-
-script:
-  - npm test
+deploy:
+  provider: npm
+  email: fontanezj1@gmail.com
+  api_key:
+    secure: P1qvi1V7QQWZXYdcPXx/KN69EFldMU5oAwq6CNKm4QGA1dke6e0NQo5ASK0KvG7mYxhko7gBmKylvV/8yrQgsRgDupmb3iBf1GlZ+FVOeBAj5bN0UBJicd6KXFDzWLfBMXKaXyITeHWdsTYBOWdKWyr+ItYjobCge5bxFTgcpMKHLV7hQ7uIhuhcC/mZyHRyxhQMoRzsxd74v+aVshw34NP99zgMUb+ErwEwvAfyQQBGBza3JEsi9u3c+v1mvANni8djVUyoIau+dBZKSJIOCDp++kAjBb3HGyT9wTQJxPPAqwi7D8x0As3+FsAlnbmJxDLvqdb9T2lcpl5DdLzo/Cw5ysPAfW/kqSfCXY1D9Cx/ttRtAEHWXYnvF6+SlkJL54YoMPklOU7SGcfekNpkkFY2udR96CoUTjIzt9kr1UQr454wISr0Kwl2UZbVfgkMFi90NRwwodarHJQ1fBevQMmHc59xUG7VB3SNv9YWCUxNUrswVR/Sf0LqqgczoaxrW5y4qSuUI/6sDQBugHcTRzIEQ2AcMubOZcI9MaUPHvVujSWUYcb0zqFzo3o17kKO0/Z1m8TU8cfrJLKbCDyH1QvqCgy2HaF+1S2l5QG4m9Ag0WIsjfYFB5lmdbIp+xUpURZ1EE9aAlD2Hd9xuzocv0PnpalRZnCACcc4QVg6zBQ=
+  on:
+    tags: true
+    repo: tato123/xdpm-webpack-plugin
